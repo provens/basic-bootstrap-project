@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Game Subpage</title>
+  <title>Image Subpage</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,9 +39,9 @@
             </li>
           </a>
 
-          <a href="game.html">
+          <a href="image.html">
            <li class="active">
-             <span class="margin10">Game</span>
+             <span class="margin10">Image</span>
            </li>
          </a>
 
@@ -65,12 +65,32 @@
    <!-- < CONTENT > -->
 
    <div class="content">
-    
-   </div>
+   <header><h1 class="text-center">Image</h1></header>
+    <figure>
+      <a href="#" data-toggle="modal" data-target=".pop-up-1">
+        <img src="img/5.png" width="300" class="horse img-responsive img-rounded center-block" alt="Image 5">
+      </a></br>
+      <figcaption class="text-center">Image</figcaption>
+    </figure>
+    <div class="mrgmintop modal fade pop-up-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
 
-   <!-- </ CONTENT > -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="horse" id="myLargeModalLabel-1">Image</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/5.png" class="img-responsive img-rounded center-block" alt="Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-   <footer id="footer">
+  <!-- </ CONTENT > -->
+
+  <footer id="footer">
     Testing
   </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
